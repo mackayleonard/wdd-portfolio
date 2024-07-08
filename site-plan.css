@@ -173,3 +173,36 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer {
+  background-color: #6f7364;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.recovery-image {
+  width: 50%;
+  height: auto;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+footer .social a img {
+  width: 32px;
+  height: 32px;
+}
