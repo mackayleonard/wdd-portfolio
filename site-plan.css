@@ -196,30 +196,61 @@ footer {
   flex-wrap: wrap;
 }
 
-footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer p {
-  margin: 5px 0;
+main#recovery-products h1 {
+  font-size: 2.5em;
+  color: #333;
   text-align: center;
 }
 
-footer a {
-  color: #fff;
-  text-decoration: none;
+main#recovery-products p {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-footer .social {
+.product {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-footer .social a img {
-  width: 32px;
-  height: 32px;
+.product-title {
+  font-size: 2em;
+  color: #333;
+}
+
+.product-image {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.product-description {
+  font-size: 1.1em;
+  color: #666;
+}
+
+#recovery-products .product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#recovery-products .product-title {
+  font-size: 2em;
+  color: #333;
+}
+
+#recovery-products .product-image {
+  width: 80%;
+  margin: 20px 0;
+}
+
+#recovery-products .product-description {
+  font-size: 1.1em;
+  color: #666;
 }
