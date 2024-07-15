@@ -196,6 +196,22 @@ footer {
   flex-wrap: wrap;
 }
 
+main#recovery-products {
+  background: #d2b48c; /* Light background color for main content */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+main#homepage {
+  background: #f0f4f8; /* Light background color for main content */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
 main#recovery-products h1 {
   font-size: 2.5em;
   color: #333;
@@ -204,9 +220,10 @@ main#recovery-products h1 {
 
 main#recovery-products p {
   font-size: 1.2em;
-  color: #666;
+  color: #000000;
   text-align: center;
   margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .product {
@@ -225,11 +242,13 @@ main#recovery-products p {
 .product-image {
   width: 80%;
   margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .product-description {
   font-size: 1.1em;
-  color: #666;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #recovery-products .product {
@@ -238,6 +257,7 @@ main#recovery-products p {
   align-items: center;
   text-align: center;
   margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #recovery-products .product-title {
@@ -252,5 +272,5 @@ main#recovery-products p {
 
 #recovery-products .product-description {
   font-size: 1.1em;
-  color: #666;
+  color: #000000;
 }
